@@ -1,0 +1,10 @@
+*./vs
+/Project/VisualStudio/.vs
+/samples/.vscode
+/samples/VisualStudio/.vs
+*.obj
+*.exe
+*.dll
+*.lib
+*.bak
+
