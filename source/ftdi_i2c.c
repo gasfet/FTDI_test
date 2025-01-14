@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * \file ftdi_i2c.c
  *
  * \author FTDI
