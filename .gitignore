@@ -8,3 +8,11 @@
 *.lib
 *.bak
 
+/makeDLL/.vs
+/makeDLL/makeDLL
+/testDLL/.vs
+/testDLL/.vs
+/makeDLL/x64
+/testDLL/.vs
+/testDLL/testDLL
+/testDLL/.vs

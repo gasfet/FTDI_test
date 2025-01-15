@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/cxxfe_ast/R2023b http://schema.mathworks.com/mf0/cxxfe_ast_annotations/20180710">
+  <mwAnnotation.FundamentalArray type="mwAnnotation.FundamentalArray" uuid="81dce4df-b2ab-4d39-b3b5-cd9567b97bb3">
+    <cppElemType>int</cppElemType>
+    <mlElemType>int32</mlElemType>
+    <name>clib.array.matrixOperations.Int</name>
+  </mwAnnotation.FundamentalArray>
+  <cxxfe.ast.Project type="cxxfe.ast.Project" uuid="e15ea82a-cf51-4bc3-9d51-9e559f4d765c">
+    <Compilations type="cxxfe.ast.source.CompilationUnit" uuid="a34d2e87-718d-497d-8c00-352428a65c77">
+      <Files type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+      <Language>CXX</Language>
+      <Annotations type="mwAnnotation.AbsolutePathBuildInfo" uuid="f3a3ea88-e338-40d2-a949-9e894b6319bd">
+        <additionalCompilerFlags></additionalCompilerFlags>
+        <additionalLinkerFlags></additionalLinkerFlags>
+        <classArrays>clib.array.matrixOperations.Mat</classArrays>
+        <fundamentalArrays type="mwAnnotation.FundamentalArray" uuid="81dce4df-b2ab-4d39-b3b5-cd9567b97bb3"/>
+        <headers>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\matrixOperations.hpp</headers>
+        <headersRelative>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\matrixOperations.hpp</headersRelative>
+        <includePaths>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface</includePaths>
+        <includePathsRelative>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface</includePathsRelative>
+        <libraries>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\win64\mingw64\matrixOperations.lib</libraries>
+        <librariesRelative>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\win64\mingw64\matrixOperations.lib</librariesRelative>
+        <location>D:\PROJECT\전기차\EVSE100A\FT2232_API\LibMPSSE_1.0.5\LibMPSSE_1.0.5\Windows\libmpsse-windows-1.0.5\release\matlabDLL</location>
+        <locationRelative>D:\PROJECT\전기차\EVSE100A\FT2232_API\LibMPSSE_1.0.5\LibMPSSE_1.0.5\Windows\libmpsse-windows-1.0.5\release\matlabDLL</locationRelative>
+        <libData type="mwAnnotation.LibraryAnnotation" uuid="62341200-ebc4-4254-8d5c-3e0e62c63140">
+          <architecture>win64</architecture>
+          <matlabVersion>R2024a</matlabVersion>
+          <packageName>matrixOperations</packageName>
+        </libData>
+      </Annotations>
+      <Constants type="cxxfe.ast.constants.TemplateParamConstant" uuid="653731f8-adf1-46b4-85d5-93ae8f5e73a1">
+        <Name>N</Name>
+        <Type type="cxxfe.ast.types.TemplateParamType" uuid="ac6f8236-caf6-496a-8081-23a5b1837a77"/>
+      </Constants>
+      <Constants type="cxxfe.ast.constants.TemplateParamConstant" uuid="7f3e9293-f29d-4a54-b441-280cf568572a">
+        <Name>N</Name>
+        <Type type="cxxfe.ast.types.TemplateParamType" uuid="23590f5f-c2c7-410a-9da3-b69370c791cc"/>
+      </Constants>
+      <Symbols type="cxxfe.ast.types.StructType" uuid="dd057695-a217-4aa7-9400-535a65da8b3c">
+        <Linkage>ExternalCXX</Linkage>
+        <NeedsImplicitConstructor>true</NeedsImplicitConstructor>
+        <NeedsImplicitCopyConstructor>true</NeedsImplicitCopyConstructor>
+        <AssocTemplate type="cxxfe.ast.Template" uuid="579a5330-85e7-4ccd-8505-2526486d05cb"/>
+        <IsIncomplete>true</IsIncomplete>
+        <IsTemplatePrototype>true</IsTemplatePrototype>
+        <TemplateArgs type="cxxfe.ast.TemplateArg" uuid="a11454f9-a6bb-4bcf-9975-41bca8f59065">
+          <Kind>TemplateTemplate</Kind>
+          <Name>templateTemplateParam</Name>
+        </TemplateArgs>
+        <TemplateArgs type="cxxfe.ast.TemplateArg" uuid="896c2cb9-ef90-4022-bc32-f1cbcbba8da9">
+          <Kind>Type</Kind>
+          <Type type="cxxfe.ast.types.TemplateParamType" uuid="ac6f8236-caf6-496a-8081-23a5b1837a77"/>
+        </TemplateArgs>
+        <TemplateArgs type="cxxfe.ast.TemplateArg" uuid="9fcba0fb-184a-4a22-9981-550abec831b3">
+          <Kind>NonType</Kind>
+          <Val type="cxxfe.ast.constants.TemplateParamConstant" uuid="653731f8-adf1-46b4-85d5-93ae8f5e73a1"/>
+        </TemplateArgs>
+        <Name>__make_integer_seq</Name>
+        <Annotations type="mwAnnotation.ClassAnnotation" uuid="cb668388-bd36-4682-9c1f-748e0de4e1e9">
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="d0b2f458-e794-44a2-a6b1-92ba9fea77d8">
+            <definitionStatus>Inaccessible</definitionStatus>
+          </integrationStatus>
+        </Annotations>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Template" uuid="579a5330-85e7-4ccd-8505-2526486d05cb">
+        <Kind>Class</Kind>
+        <ProtoTypeInstantiation type="cxxfe.ast.types.StructType" uuid="dd057695-a217-4aa7-9400-535a65da8b3c"/>
+        <Name>__make_integer_seq</Name>
+        <Scope type="cxxfe.ast.Scope" uuid="c6676040-d058-43bf-b12b-fdb87ce11e11">
+          <Symbols type="cxxfe.ast.types.TemplateParamType" uuid="ac6f8236-caf6-496a-8081-23a5b1837a77">
+            <Name>T</Name>
+          </Symbols>
+        </Scope>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.TypedefType" uuid="f57d0a07-8dcc-4109-b6ee-ebab65bb0379">
+        <AssocTemplate type="cxxfe.ast.Template" uuid="7c831dc0-3773-4630-ad9b-fdc022608dc8"/>
+        <IsAlias>true</IsAlias>
+        <IsDependent>true</IsDependent>
+        <IsPrototypeInstantiation>true</IsPrototypeInstantiation>
+        <IsTemplateAlias>true</IsTemplateAlias>
+        <TemplateArgs type="cxxfe.ast.TemplateArg" uuid="5fe95246-fccf-44cc-87f8-f6e2858c873e">
+          <Kind>TemplateTemplate</Kind>
+          <Name>templateTemplateParam</Name>
+        </TemplateArgs>
+        <TemplateArgs type="cxxfe.ast.TemplateArg" uuid="9bd82532-c3b7-4b84-bbc9-ac8bf808af6b">
+          <Kind>Type</Kind>
+          <Type type="cxxfe.ast.types.TemplateParamType" uuid="23590f5f-c2c7-410a-9da3-b69370c791cc"/>
+        </TemplateArgs>
+        <TemplateArgs type="cxxfe.ast.TemplateArg" uuid="a4b6f146-4e40-46c5-91ae-f1d06bebefab">
+          <Kind>NonType</Kind>
+          <Val type="cxxfe.ast.constants.TemplateParamConstant" uuid="7f3e9293-f29d-4a54-b441-280cf568572a"/>
+        </TemplateArgs>
+        <Type type="cxxfe.ast.types.TemplateParamType" uuid="23590f5f-c2c7-410a-9da3-b69370c791cc"/>
+        <Name>__make_integer_seq_alias</Name>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Template" uuid="7c831dc0-3773-4630-ad9b-fdc022608dc8">
+        <Kind>Class</Kind>
+        <ProtoTypeInstantiation type="cxxfe.ast.types.TypedefType" uuid="f57d0a07-8dcc-4109-b6ee-ebab65bb0379"/>
+        <Name>__make_integer_seq_alias</Name>
+        <Scope type="cxxfe.ast.Scope" uuid="ad556504-29e8-4e7d-bfb4-d04502767f3d">
+          <Symbols type="cxxfe.ast.types.TemplateParamType" uuid="23590f5f-c2c7-410a-9da3-b69370c791cc">
+            <Name>T</Name>
+          </Symbols>
+        </Scope>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a">
+        <Type type="cxxfe.ast.types.IntegerType" uuid="38c4332a-0919-4eb9-b7d3-485d02b3cdb9"/>
+        <Name>size_t</Name>
+        <DefPos type="cxxfe.ast.source.SourcePosition" uuid="e9ffed41-e2cf-4ec7-b141-fa0aa5dec64e">
+          <Col>30</Col>
+          <File type="cxxfe.ast.source.SourceFile" uuid="7b1cffa8-7780-4832-828c-3c6e0241eafa"/>
+          <Line>188</Line>
+        </DefPos>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.IntegerType" uuid="38c4332a-0919-4eb9-b7d3-485d02b3cdb9">
+        <IsSigned>false</IsSigned>
+        <Kind>UnsignedLongLong</Kind>
+        <NumBits>64</NumBits>
+        <Name>unsigned long long</Name>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.ClassType" uuid="9b2d1559-1631-4243-823b-6ee7fb777aca">
+        <DeclModifierFlags>2</DeclModifierFlags>
+        <Linkage>ExternalCXX</Linkage>
+        <Methods type="cxxfe.ast.types.Method" uuid="a6497ad5-ec94-4075-82ae-a862f6f4c51e">
+          <IsCompilerGenerated>true</IsCompilerGenerated>
+          <IsInline>true</IsInline>
+          <SpecialKind>Destructor</SpecialKind>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="d8a187f1-4a98-4504-84a9-b34182bbf7b5"/>
+          <Name>~Mat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="c7b7eaeb-21ee-4240-9a61-44727709190e">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="95c21a1c-fdf7-4c42-a31c-260bef777cbd">
+              <definitionStatus>Inaccessible</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="4568b1bd-c504-4914-b3b4-13791ed6bc6c">
+          <IsCompilerGenerated>true</IsCompilerGenerated>
+          <IsDefined>true</IsDefined>
+          <IsInline>true</IsInline>
+          <Params type="cxxfe.ast.Variable" uuid="5e0618d5-27b1-4d72-90f4-93d95ca60100">
+            <Type type="cxxfe.ast.types.RValueReferenceType" uuid="a001b01b-b448-4b2c-a21c-045b0646a025"/>
+          </Params>
+          <SpecialKind>CopyConstructor</SpecialKind>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="1713b28a-d9cb-4625-830c-1f4441577f4f"/>
+          <Name>Mat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="5c2dc3e7-cea4-45f6-8f28-cc3e16769e5d">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="c9a1c562-1635-4aa6-976f-d652f9d7b9c6">
+              <definitionStatus>Unsupported</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="ba77ce06-2663-4a72-ab0e-114c9547bb63">
+          <IsCompilerGenerated>true</IsCompilerGenerated>
+          <IsDefined>true</IsDefined>
+          <IsInline>true</IsInline>
+          <Params type="cxxfe.ast.Variable" uuid="dd1e1df8-900e-4a38-8d9b-21022341912a">
+            <Type type="cxxfe.ast.types.LValueReferenceType" uuid="7db44fb9-b1ca-46da-bb2f-0e5c1a5998c2"/>
+          </Params>
+          <SpecialKind>CopyConstructor</SpecialKind>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="2128e975-eecf-411e-a9b5-6b06304deca0"/>
+          <Name>Mat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="c4a240e9-0b31-4143-aa38-6aaa54ce79b9">
+            <cppPosition>2</cppPosition>
+            <cppSignature>Mat::Mat(Mat const &amp; input1)</cppSignature>
+            <cppSignatureFcnType>void(*)(Mat const &amp;)</cppSignatureFcnType>
+            <description>clib.matrixOperations.Mat Constructor of C++ class Mat.</description>
+            <inputs type="mwAnnotation.Argument" uuid="90306ce0-f761-4c8d-9e76-dccb6b1ffa77">
+              <cppPosition>1</cppPosition>
+              <cppType>[Mat]ConstRef</cppType>
+              <isConstData>true</isConstData>
+              <mwType>clib.matrixOperations.Mat</mwType>
+              <name>input1</name>
+              <validTypes>clib.matrixOperations.Mat</validTypes>
+            </inputs>
+            <name>Mat</name>
+            <ptKey>A/Mat@[Mat]ConstRef</ptKey>
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="68a6a58e-9c35-46f5-8204-15501f66b96f"/>
+          </Annotations>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="68a9fff2-7def-4fc3-8da9-fe7f8b5fda09">
+          <IsCompilerGenerated>true</IsCompilerGenerated>
+          <IsInline>true</IsInline>
+          <SpecialKind>Constructor</SpecialKind>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="acbefc82-1d26-48f6-9dd7-23333d62e3a3"/>
+          <Name>Mat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="ee17013a-1802-4abc-8fb8-90403b5ae401">
+            <cppPosition>2</cppPosition>
+            <cppSignature>Mat::Mat()</cppSignature>
+            <cppSignatureFcnType>void(*)()</cppSignatureFcnType>
+            <description>clib.matrixOperations.Mat Constructor of C++ class Mat.</description>
+            <name>Mat</name>
+            <ptKey>A/Mat</ptKey>
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="7c36649a-e926-4e46-9398-e24ac315fc92"/>
+          </Annotations>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="f09fc9b8-e595-447f-8de0-31faaf6c0d50">
+          <Params type="cxxfe.ast.Variable" uuid="7ffac2f5-00d9-41f5-aaee-90f6beb223df">
+            <Type type="cxxfe.ast.types.ArrayType" uuid="cddb346b-6a5d-40bd-a66f-b044d4389a28"/>
+            <Name>src</Name>
+          </Params>
+          <Params type="cxxfe.ast.Variable" uuid="ff88c2c6-8cb2-4759-8ee1-d32ecc20db6a">
+            <Type type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+            <Name>len</Name>
+          </Params>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Linkage>ExternalCXX</Linkage>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="04077271-3bff-48ef-8094-a6fac4ed3a1c"/>
+          <Name>setMat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="f480966d-dee2-429b-a4bf-8c4328824df0">
+            <cppPosition>5</cppPosition>
+            <cppSignature>void Mat::setMat(int [] src,size_t len)</cppSignature>
+            <cppSignatureFcnType>void(*)(int *, unsigned long long)</cppSignatureFcnType>
+            <cppType>[void]</cppType>
+            <description>setMat Method of C++ class Mat.</description>
+            <inputs type="mwAnnotation.Argument" uuid="0359fba4-6380-40cc-8baa-22a8cb1fb5cf">
+              <boxes>1</boxes>
+              <cppPosition>1</cppPosition>
+              <cppType>[int]Arr</cppType>
+              <mwType>clib.array.matrixOperations.Int</mwType>
+              <name>src</name>
+              <shape>Array</shape>
+              <storage>Array</storage>
+              <validTypes>clib.array.matrixOperations.Int</validTypes>
+              <validTypes>int32</validTypes>
+            </inputs>
+            <inputs type="mwAnnotation.Argument" uuid="5cde7a56-b6ff-4007-acc2-f33306ae2b03">
+              <cppPosition>2</cppPosition>
+              <cppType>[unsigned long long]</cppType>
+              <mwType>uint64</mwType>
+              <name>len</name>
+              <storage>Value</storage>
+              <validTypes>uint64</validTypes>
+            </inputs>
+            <name>setMat</name>
+            <ptKey>MF/Mat/setMat@[int]Arr,[unsigned long long]#[void]</ptKey>
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="73348094-59c0-4829-a539-1a85a5f59e12">
+              <definitionStatus>PartiallySpecified</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="795ad1a3-5ab0-4c78-b8a7-533662cb9a3f">
+            <Col>10</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>19</Line>
+          </DeclPos>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="45230a00-e5a5-43ba-a296-3530afd66dfe">
+          <IsThisConst>true</IsThisConst>
+          <Params type="cxxfe.ast.Variable" uuid="5caac4ef-b717-40a9-b7ca-d69256b67fc8">
+            <Type type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+            <Name>len</Name>
+          </Params>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Linkage>ExternalCXX</Linkage>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="9be80de3-f634-40b8-8b1f-338dfa9406de"/>
+          <Name>getMat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="fdc2800a-f790-4ba8-91e5-b45d14181c99">
+            <cppPosition>6</cppPosition>
+            <cppSignature>int const * const Mat::getMat(size_t len) const</cppSignature>
+            <cppSignatureFcnType>int const * const(*)(unsigned long long)</cppSignatureFcnType>
+            <cppType>[int]ConstPtrConst</cppType>
+            <description>getMat Method of C++ class Mat.</description>
+            <inputs type="mwAnnotation.Argument" uuid="c6fd9228-953d-4867-8657-4db302a1c4b8">
+              <cppPosition>1</cppPosition>
+              <cppType>[unsigned long long]</cppType>
+              <mwType>uint64</mwType>
+              <name>len</name>
+              <storage>Value</storage>
+              <validTypes>uint64</validTypes>
+            </inputs>
+            <name>getMat</name>
+            <outputs type="mwAnnotation.Argument" uuid="df35c7bb-daf7-486b-b09f-7c499ce5631a">
+              <cppType>[int]ConstPtrConst</cppType>
+              <direction>Out</direction>
+              <isConstData>true</isConstData>
+              <mwType>clib.array.matrixOperations.Int</mwType>
+              <name>RetVal</name>
+              <shape>Undefined</shape>
+              <storage>Pointer</storage>
+              <validTypes>clib.array.matrixOperations.Int</validTypes>
+              <validTypes>int32</validTypes>
+            </outputs>
+            <ptKey>MF/Mat/getMat@[unsigned long long]#[int]ConstPtrConst</ptKey>
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="598caf84-c7f8-4a56-a74e-68223beb0824">
+              <definitionStatus>PartiallySpecified</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="90f6c5d7-7814-435b-8a7f-b780f27fd9ab">
+            <Col>23</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>22</Line>
+          </DeclPos>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="10a62127-800c-411a-9e2f-40e163cd496a">
+          <IsThisConst>true</IsThisConst>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Linkage>ExternalCXX</Linkage>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="4959e584-846a-4bff-8bca-b3455acf7009"/>
+          <Name>getLength</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="c2451bca-1a18-49d1-9832-c83bf1673184">
+            <cppPosition>7</cppPosition>
+            <cppSignature>size_t Mat::getLength() const</cppSignature>
+            <cppSignatureFcnType>unsigned long long(*)()</cppSignatureFcnType>
+            <cppType>[unsigned long long]</cppType>
+            <description>getLength Method of C++ class Mat.</description>
+            <name>getLength</name>
+            <outputs type="mwAnnotation.Argument" uuid="f335be07-c653-46be-bad4-c09f65e3c5cb">
+              <cppType>[unsigned long long]</cppType>
+              <direction>Out</direction>
+              <isOwned>true</isOwned>
+              <mwType>uint64</mwType>
+              <name>RetVal</name>
+              <storage>Value</storage>
+              <validTypes>uint64</validTypes>
+            </outputs>
+            <ptKey>MF/Mat/getLength#[unsigned long long]</ptKey>
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="25febf6b-7f87-48cb-bcd4-a016d4528ee4"/>
+          </Annotations>
+          <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="b48daf1d-6d1a-4262-ad77-dc3d41a1c65f">
+            <Col>12</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>25</Line>
+          </DeclPos>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="cbaa3a8a-b107-46b5-8827-919cea17188a">
+          <Params type="cxxfe.ast.Variable" uuid="d3e80d5b-2e90-4ba8-80a5-e94c0771367e">
+            <Type type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21"/>
+            <Name>dest</Name>
+          </Params>
+          <Params type="cxxfe.ast.Variable" uuid="015a80b5-acce-4e4e-a50b-8b1cf7c9ff64">
+            <Type type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+            <Name>len</Name>
+          </Params>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Linkage>ExternalCXX</Linkage>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="0b674021-bd2b-467a-b57c-98653535e931"/>
+          <Name>copyMat</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="2939b97e-80df-485d-a38e-0118863dab3a">
+            <cppPosition>8</cppPosition>
+            <cppSignature>void Mat::copyMat(int * dest,size_t len)</cppSignature>
+            <cppSignatureFcnType>void(*)(int *, unsigned long long)</cppSignatureFcnType>
+            <cppType>[void]</cppType>
+            <description>copyMat Method of C++ class Mat.</description>
+            <inputs type="mwAnnotation.Argument" uuid="afe6a61d-52eb-4f0d-b97c-a1dd717e7750">
+              <cppPosition>1</cppPosition>
+              <cppType>[int]Ptr</cppType>
+              <mwType>clib.array.matrixOperations.Int</mwType>
+              <name>dest</name>
+              <shape>Undefined</shape>
+              <storage>Pointer</storage>
+              <validTypes>clib.array.matrixOperations.Int</validTypes>
+              <validTypes>int32</validTypes>
+            </inputs>
+            <inputs type="mwAnnotation.Argument" uuid="080e623f-b9c3-4b51-b92d-7534d4b086cf">
+              <cppPosition>2</cppPosition>
+              <cppType>[unsigned long long]</cppType>
+              <mwType>uint64</mwType>
+              <name>len</name>
+              <storage>Value</storage>
+              <validTypes>uint64</validTypes>
+            </inputs>
+            <name>copyMat</name>
+            <ptKey>MF/Mat/copyMat@[int]Ptr,[unsigned long long]#[void]</ptKey>
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="3ac8af12-48b0-4479-8157-34b48d4f156d">
+              <definitionStatus>PartiallySpecified</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="8e308d1e-53b0-4c05-be41-6b19eb50e07a">
+            <Col>10</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>28</Line>
+          </DeclPos>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="63797680-2d46-49de-a85b-f090277dca0c">
+          <IsCompilerGenerated>true</IsCompilerGenerated>
+          <IsDefined>true</IsDefined>
+          <IsInline>true</IsInline>
+          <Params type="cxxfe.ast.Variable" uuid="018106d6-b16e-48fd-8afe-5b42883735bf">
+            <Type type="cxxfe.ast.types.LValueReferenceType" uuid="7db44fb9-b1ca-46da-bb2f-0e5c1a5998c2"/>
+          </Params>
+          <SpecialKind>Operator</SpecialKind>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Linkage>ExternalCXX</Linkage>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="8211822b-5138-4162-8052-f06704134ca4"/>
+          <Name>operator=</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="44e6d468-35fd-49b8-81a7-fec10e70ad28">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="8e17a86d-699f-4fa6-8299-c6a7617828db">
+              <definitionStatus>Inaccessible</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DefPos type="cxxfe.ast.source.SourcePosition" uuid="a93b48b6-e774-446c-9e0c-f426d60c37c9">
+            <Col>18</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>13</Line>
+          </DefPos>
+        </Methods>
+        <Methods type="cxxfe.ast.types.Method" uuid="8906fa2a-5ee4-44d3-b9ce-545209513e55">
+          <IsCompilerGenerated>true</IsCompilerGenerated>
+          <IsDefined>true</IsDefined>
+          <IsInline>true</IsInline>
+          <Params type="cxxfe.ast.Variable" uuid="afeeffc2-c407-4e4e-84fb-7712e95426cc">
+            <Type type="cxxfe.ast.types.RValueReferenceType" uuid="a001b01b-b448-4b2c-a21c-045b0646a025"/>
+          </Params>
+          <SpecialKind>Operator</SpecialKind>
+          <DeclModifierFlags>2</DeclModifierFlags>
+          <Linkage>ExternalCXX</Linkage>
+          <Type type="cxxfe.ast.types.FunctionType" uuid="49071dbe-c22a-46f8-b903-5a4c283846f1"/>
+          <Name>operator=</Name>
+          <Annotations type="mwAnnotation.FunctionAnnotation" uuid="20e56aee-7331-4044-b811-22834b26316f">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="6a376b3d-f628-41a7-9b4e-6aaefec852f0">
+              <definitionStatus>Inaccessible</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DefPos type="cxxfe.ast.source.SourcePosition" uuid="baf423c7-8980-4c35-bf63-e395d8866c72">
+            <Col>18</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>13</Line>
+          </DefPos>
+        </Methods>
+        <IsPOD>true</IsPOD>
+        <IsStandardLayout>true</IsStandardLayout>
+        <Members type="cxxfe.ast.types.Member" uuid="8c328a9c-5f2f-4321-8d18-6e493b093ed2">
+          <Access>Private</Access>
+          <Type type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21"/>
+          <Name>arr</Name>
+          <Annotations type="mwAnnotation.VariableAnnotation" uuid="796ae6da-f6b9-4510-af2a-fb7970f7b66d">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="05e93c3e-5306-4098-8624-9fd26729eaba">
+              <definitionStatus>Inaccessible</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DefPos type="cxxfe.ast.source.SourcePosition" uuid="40721c0b-6ccc-4399-8f4c-b0c63662ab6a">
+            <Col>11</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>14</Line>
+          </DefPos>
+        </Members>
+        <Members type="cxxfe.ast.types.Member" uuid="e0817b9a-112c-4dba-ad68-b5296cfbbad6">
+          <Access>Private</Access>
+          <Type type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+          <Name>len</Name>
+          <Annotations type="mwAnnotation.VariableAnnotation" uuid="ed1a0fd2-60f8-42e3-85c5-2e16f1b71c8a">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="6e8fe036-72a6-43ad-8b80-adc92a64aa81">
+              <definitionStatus>Inaccessible</definitionStatus>
+            </integrationStatus>
+          </Annotations>
+          <DefPos type="cxxfe.ast.source.SourcePosition" uuid="8ce369a1-7202-4392-bade-0d8940617bfd">
+            <Col>12</Col>
+            <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+            <Line>15</Line>
+          </DefPos>
+        </Members>
+        <Name>Mat</Name>
+        <Annotations type="mwAnnotation.ClassAnnotation" uuid="56d51707-6eb0-45eb-93da-2d5f89042929">
+          <deallocatorPTKey>D/Mat</deallocatorPTKey>
+          <description>clib.matrixOperations.Mat    Representation of C++ class Mat.</description>
+          <isAssignable>true</isAssignable>
+          <isDestructible>true</isDestructible>
+          <name>clib.matrixOperations.Mat</name>
+          <needArray>true</needArray>
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="a402bd6c-ab39-4388-8a8d-8f2950276b0c"/>
+        </Annotations>
+        <Scope type="cxxfe.ast.Scope" uuid="03ae05d0-977f-4286-80dd-c9aaddc1eea3">
+          <Annotations type="mwAnnotation.ScopeAnnotation" uuid="c3c56dec-38bc-4a1d-959d-4de1420c970e">
+            <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="83935166-6cdb-4a08-9d65-5fed4337ce73"/>
+          </Annotations>
+        </Scope>
+        <DefPos type="cxxfe.ast.source.SourcePosition" uuid="6e20681a-3de2-4c3a-8d4b-12b1fa93f01f">
+          <Col>18</Col>
+          <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+          <Line>13</Line>
+        </DefPos>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21">
+        <Type type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad">
+        <NumBits>32</NumBits>
+        <Name>int</Name>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="d8a187f1-4a98-4504-84a9-b34182bbf7b5">
+        <IsPrototyped>true</IsPrototyped>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0">
+        <Name>void</Name>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="1713b28a-d9cb-4625-830c-1f4441577f4f">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.RValueReferenceType" uuid="a001b01b-b448-4b2c-a21c-045b0646a025"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.RValueReferenceType" uuid="a001b01b-b448-4b2c-a21c-045b0646a025">
+        <Type type="cxxfe.ast.types.ClassType" uuid="9b2d1559-1631-4243-823b-6ee7fb777aca"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="2128e975-eecf-411e-a9b5-6b06304deca0">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.LValueReferenceType" uuid="7db44fb9-b1ca-46da-bb2f-0e5c1a5998c2"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.LValueReferenceType" uuid="7db44fb9-b1ca-46da-bb2f-0e5c1a5998c2">
+        <Type type="cxxfe.ast.types.QualifiedType" uuid="874a7951-ea51-4b10-a2e8-a92ace0ea997"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.QualifiedType" uuid="874a7951-ea51-4b10-a2e8-a92ace0ea997">
+        <IsConst>true</IsConst>
+        <Type type="cxxfe.ast.types.ClassType" uuid="9b2d1559-1631-4243-823b-6ee7fb777aca"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="acbefc82-1d26-48f6-9dd7-23333d62e3a3">
+        <IsPrototyped>true</IsPrototyped>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="04077271-3bff-48ef-8094-a6fac4ed3a1c">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21"/>
+        <ParamTypes type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.ArrayType" uuid="cddb346b-6a5d-40bd-a66f-b044d4389a28">
+        <Dimensions>0</Dimensions>
+        <Type type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad"/>
+        <DefPos type="cxxfe.ast.source.SourcePosition" uuid="ca9ff1d7-b2ed-48ef-81c5-8793575da7b4">
+          <Col>24</Col>
+          <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+          <Line>19</Line>
+        </DefPos>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="9be80de3-f634-40b8-8b1f-338dfa9406de">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+        <RetType type="cxxfe.ast.types.QualifiedType" uuid="9ae8c062-fb97-45d5-8511-2b6ed44dc75d"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.QualifiedType" uuid="9ae8c062-fb97-45d5-8511-2b6ed44dc75d">
+        <IsConst>true</IsConst>
+        <Type type="cxxfe.ast.types.PointerType" uuid="a29db529-5632-4813-9433-d8dbdb596f81"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.PointerType" uuid="a29db529-5632-4813-9433-d8dbdb596f81">
+        <Type type="cxxfe.ast.types.QualifiedType" uuid="cc465795-708d-4bbf-9a67-79ed7e1bfc15"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.QualifiedType" uuid="cc465795-708d-4bbf-9a67-79ed7e1bfc15">
+        <IsConst>true</IsConst>
+        <Type type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="4959e584-846a-4bff-8bca-b3455acf7009">
+        <IsPrototyped>true</IsPrototyped>
+        <RetType type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="0b674021-bd2b-467a-b57c-98653535e931">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21"/>
+        <ParamTypes type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="8211822b-5138-4162-8052-f06704134ca4">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.LValueReferenceType" uuid="7db44fb9-b1ca-46da-bb2f-0e5c1a5998c2"/>
+        <RetType type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b">
+        <Type type="cxxfe.ast.types.ClassType" uuid="9b2d1559-1631-4243-823b-6ee7fb777aca"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="49071dbe-c22a-46f8-b903-5a4c283846f1">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.RValueReferenceType" uuid="a001b01b-b448-4b2c-a21c-045b0646a025"/>
+        <RetType type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="7c561def-5a6e-470f-aecd-8ffc5dbf4e12">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.IntegerType" uuid="38c4332a-0919-4eb9-b7d3-485d02b3cdb9"/>
+        <RetType type="cxxfe.ast.types.PointerType" uuid="7ac8eee6-75eb-401f-b1c3-5a1100ad387f"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.PointerType" uuid="7ac8eee6-75eb-401f-b1c3-5a1100ad387f">
+        <Type type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Function" uuid="e15f5b93-5f65-4e3a-b15c-df4423147da8">
+        <IsCompilerGenerated>true</IsCompilerGenerated>
+        <Params type="cxxfe.ast.Variable" uuid="af3937e1-2b88-4db1-8af2-4108de49195a">
+          <Type type="cxxfe.ast.types.IntegerType" uuid="38c4332a-0919-4eb9-b7d3-485d02b3cdb9"/>
+        </Params>
+        <SpecialKind>Operator</SpecialKind>
+        <Linkage>ExternalCXX</Linkage>
+        <StorageClass>Extern</StorageClass>
+        <Type type="cxxfe.ast.types.FunctionType" uuid="7c561def-5a6e-470f-aecd-8ffc5dbf4e12"/>
+        <Name>operator new</Name>
+        <Annotations type="mwAnnotation.FunctionAnnotation" uuid="c334764b-d74f-40bb-ace4-1a38a0d57f93">
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="103ec38c-66f2-4a01-84a0-17f25d2a2bc5">
+            <definitionStatus>Inaccessible</definitionStatus>
+          </integrationStatus>
+        </Annotations>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="a3ccf006-a2d3-441d-8e57-e3b2a9000636">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.PointerType" uuid="7ac8eee6-75eb-401f-b1c3-5a1100ad387f"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Function" uuid="4cb0749d-1ab0-4eb8-8092-e8d9689f4369">
+        <IsCompilerGenerated>true</IsCompilerGenerated>
+        <Params type="cxxfe.ast.Variable" uuid="3daa780d-f602-4e3a-b13f-8ea028d822ff">
+          <Type type="cxxfe.ast.types.PointerType" uuid="7ac8eee6-75eb-401f-b1c3-5a1100ad387f"/>
+        </Params>
+        <SpecialKind>Operator</SpecialKind>
+        <Linkage>ExternalCXX</Linkage>
+        <StorageClass>Extern</StorageClass>
+        <Type type="cxxfe.ast.types.FunctionType" uuid="a3ccf006-a2d3-441d-8e57-e3b2a9000636"/>
+        <Name>operator delete</Name>
+        <Annotations type="mwAnnotation.FunctionAnnotation" uuid="e236ddc7-2f98-4c0b-b756-10695002b110">
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="72174438-86c0-4b79-b990-e84fbb2db126">
+            <definitionStatus>Inaccessible</definitionStatus>
+          </integrationStatus>
+        </Annotations>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="42449365-15b0-4376-b2e2-25d5df1b4109">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.PointerType" uuid="7ac8eee6-75eb-401f-b1c3-5a1100ad387f"/>
+        <ParamTypes type="cxxfe.ast.types.IntegerType" uuid="38c4332a-0919-4eb9-b7d3-485d02b3cdb9"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Function" uuid="e84376f3-616b-4ccb-bff3-5769effd023f">
+        <IsCompilerGenerated>true</IsCompilerGenerated>
+        <Params type="cxxfe.ast.Variable" uuid="43c44a74-31a1-4467-912d-7c328d078420">
+          <Type type="cxxfe.ast.types.PointerType" uuid="7ac8eee6-75eb-401f-b1c3-5a1100ad387f"/>
+        </Params>
+        <Params type="cxxfe.ast.Variable" uuid="502387de-b8b5-456d-9c65-2b727b62da4f">
+          <Type type="cxxfe.ast.types.IntegerType" uuid="38c4332a-0919-4eb9-b7d3-485d02b3cdb9"/>
+        </Params>
+        <SpecialKind>Operator</SpecialKind>
+        <Linkage>ExternalCXX</Linkage>
+        <StorageClass>Extern</StorageClass>
+        <Type type="cxxfe.ast.types.FunctionType" uuid="42449365-15b0-4376-b2e2-25d5df1b4109"/>
+        <Name>operator delete</Name>
+        <Annotations type="mwAnnotation.FunctionAnnotation" uuid="4583721e-3d3c-4fd4-82c8-9c5188fe3076">
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="bbea435e-33e0-48e2-a09f-4d2dad792dc5">
+            <definitionStatus>Inaccessible</definitionStatus>
+          </integrationStatus>
+        </Annotations>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="5ed6215a-1c55-415f-a66c-006fe5001e0a">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.PointerType" uuid="4e99f196-1cbd-4ef9-bf78-945805ea9edc"/>
+        <RetType type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.PointerType" uuid="4e99f196-1cbd-4ef9-bf78-945805ea9edc">
+        <Type type="cxxfe.ast.types.QualifiedType" uuid="874a7951-ea51-4b10-a2e8-a92ace0ea997"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Function" uuid="390cc607-b41b-419b-ab78-c8d11fc92c24">
+        <Params type="cxxfe.ast.Variable" uuid="f65a9b90-265b-4e15-9a88-c451948c492c">
+          <Type type="cxxfe.ast.types.PointerType" uuid="4e99f196-1cbd-4ef9-bf78-945805ea9edc"/>
+          <Name>mat</Name>
+        </Params>
+        <DeclModifierFlags>2</DeclModifierFlags>
+        <Linkage>ExternalCXX</Linkage>
+        <StorageClass>Extern</StorageClass>
+        <Type type="cxxfe.ast.types.FunctionType" uuid="5ed6215a-1c55-415f-a66c-006fe5001e0a"/>
+        <Name>addMat</Name>
+        <Annotations type="mwAnnotation.FunctionAnnotation" uuid="e20fc975-a659-4a6f-b77f-fa5c61fc856f">
+          <cppSignature>int addMat(Mat const * mat)</cppSignature>
+          <cppSignatureFcnType>int(*)(Mat const *)</cppSignatureFcnType>
+          <cppType>[int]</cppType>
+          <description>clib.matrixOperations.addMat Representation of C++ function addMat.</description>
+          <inputs type="mwAnnotation.Argument" uuid="b1efeddc-bad0-4563-8846-90d16034dfb5">
+            <cppPosition>1</cppPosition>
+            <cppType>[Mat]ConstPtr</cppType>
+            <isConstData>true</isConstData>
+            <mwType>clib.matrixOperations.Mat</mwType>
+            <name>mat</name>
+            <shape>Undefined</shape>
+            <storage>Pointer</storage>
+            <validTypes>clib.matrixOperations.Mat</validTypes>
+            <validTypes>clib.array.matrixOperations.Mat</validTypes>
+          </inputs>
+          <name>clib.matrixOperations.addMat</name>
+          <outputs type="mwAnnotation.Argument" uuid="8d212891-1875-4f73-b65e-a0b07194126d">
+            <cppType>[int]</cppType>
+            <direction>Out</direction>
+            <isOwned>true</isOwned>
+            <mwType>int32</mwType>
+            <name>RetVal</name>
+            <storage>Value</storage>
+            <validTypes>int32</validTypes>
+          </outputs>
+          <ptKey>F/addMat@[Mat]ConstPtr#[int]</ptKey>
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="5f1dc942-2ee5-4019-a56e-1c84daf33943">
+            <definitionStatus>PartiallySpecified</definitionStatus>
+          </integrationStatus>
+        </Annotations>
+        <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="d4e54ea2-2d01-4d36-baca-8cdc1ed2f3db">
+          <Col>16</Col>
+          <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+          <Line>32</Line>
+        </DeclPos>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="34b3c272-4e71-42c3-a2ae-d29ae47a41fc">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b"/>
+        <ParamTypes type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Function" uuid="24cb3c3e-1f37-43dc-bfa2-f3e431426eb4">
+        <Params type="cxxfe.ast.Variable" uuid="d025e557-2f3d-4893-a425-a294e3763b30">
+          <Type type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b"/>
+          <Name>mat</Name>
+        </Params>
+        <Params type="cxxfe.ast.Variable" uuid="09d4554c-9ec0-4c67-a1e6-cabd249cfa6e">
+          <Type type="cxxfe.ast.types.IntegerType" uuid="69920393-53e5-42be-865b-79b10f0c90ad"/>
+          <Name>X</Name>
+        </Params>
+        <DeclModifierFlags>2</DeclModifierFlags>
+        <Linkage>ExternalCXX</Linkage>
+        <StorageClass>Extern</StorageClass>
+        <Type type="cxxfe.ast.types.FunctionType" uuid="34b3c272-4e71-42c3-a2ae-d29ae47a41fc"/>
+        <Name>updateMatByX</Name>
+        <Annotations type="mwAnnotation.FunctionAnnotation" uuid="2d98528a-05e9-476d-b65b-eaaa205d2f9b">
+          <cppSignature>void updateMatByX(Mat &amp; mat,int X)</cppSignature>
+          <cppSignatureFcnType>void(*)(Mat &amp;, int)</cppSignatureFcnType>
+          <cppType>[void]</cppType>
+          <description>clib.matrixOperations.updateMatByX Representation of C++ function updateMatByX.</description>
+          <inputs type="mwAnnotation.Argument" uuid="3bb85ab7-95a7-4869-9151-13fff63f95f2">
+            <cppPosition>1</cppPosition>
+            <cppType>[Mat]Ref</cppType>
+            <mwType>clib.matrixOperations.Mat</mwType>
+            <name>mat</name>
+            <validTypes>clib.matrixOperations.Mat</validTypes>
+          </inputs>
+          <inputs type="mwAnnotation.Argument" uuid="9dfc173a-a773-4309-9590-b3a94811dd9e">
+            <cppPosition>2</cppPosition>
+            <cppType>[int]</cppType>
+            <mwType>int32</mwType>
+            <name>X</name>
+            <storage>Value</storage>
+            <validTypes>int32</validTypes>
+          </inputs>
+          <name>clib.matrixOperations.updateMatByX</name>
+          <ptKey>F/updateMatByX@[Mat]Ref,[int]#[void]</ptKey>
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="7ae3d357-c12c-44c3-b275-fee8edaae08e"/>
+        </Annotations>
+        <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="e9c34fe1-cd51-4144-b022-4a78c7ca52d0">
+          <Col>17</Col>
+          <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+          <Line>35</Line>
+        </DeclPos>
+      </Symbols>
+      <Symbols type="cxxfe.ast.types.FunctionType" uuid="5a0b47ee-e15f-487b-9ee3-792dd3c263b2">
+        <IsPrototyped>true</IsPrototyped>
+        <ParamTypes type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b"/>
+        <ParamTypes type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21"/>
+        <ParamTypes type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+        <RetType type="cxxfe.ast.types.VoidType" uuid="6371b2c5-2608-4803-8201-4cc56124e7f0"/>
+      </Symbols>
+      <Symbols type="cxxfe.ast.Function" uuid="2880b656-2ed9-4886-977a-1c1db3f669f8">
+        <Params type="cxxfe.ast.Variable" uuid="bba66ac1-0cbc-4d8d-a948-20f50da836e7">
+          <Type type="cxxfe.ast.types.LValueReferenceType" uuid="1d5efcb7-4547-47ca-bead-8d4f7a9f136b"/>
+          <Name>mat</Name>
+        </Params>
+        <Params type="cxxfe.ast.Variable" uuid="791d557c-136c-4a4f-9b25-5faacc572d02">
+          <Type type="cxxfe.ast.types.PointerType" uuid="51290787-da1f-4f9c-8376-ad3902f39f21"/>
+          <Name>arr</Name>
+        </Params>
+        <Params type="cxxfe.ast.Variable" uuid="548740a1-5c5a-4d08-ba50-7dff9dc97164">
+          <Type type="cxxfe.ast.types.TypedefType" uuid="63d35b1d-30fe-4e14-bc24-1f12dd5ec34a"/>
+          <Name>len</Name>
+        </Params>
+        <DeclModifierFlags>2</DeclModifierFlags>
+        <Linkage>ExternalCXX</Linkage>
+        <StorageClass>Extern</StorageClass>
+        <Type type="cxxfe.ast.types.FunctionType" uuid="5a0b47ee-e15f-487b-9ee3-792dd3c263b2"/>
+        <Name>updateMatBySize</Name>
+        <Annotations type="mwAnnotation.FunctionAnnotation" uuid="f71d3a20-9952-4131-a434-685c64801e1a">
+          <cppSignature>void updateMatBySize(Mat &amp; mat,int * arr,size_t len)</cppSignature>
+          <cppSignatureFcnType>void(*)(Mat &amp;, int *, unsigned long long)</cppSignatureFcnType>
+          <cppType>[void]</cppType>
+          <description>clib.matrixOperations.updateMatBySize Representation of C++ function updateMatBySize.</description>
+          <inputs type="mwAnnotation.Argument" uuid="0ba46a1d-06db-4976-96f4-a7ffa08d473d">
+            <cppPosition>1</cppPosition>
+            <cppType>[Mat]Ref</cppType>
+            <mwType>clib.matrixOperations.Mat</mwType>
+            <name>mat</name>
+            <validTypes>clib.matrixOperations.Mat</validTypes>
+          </inputs>
+          <inputs type="mwAnnotation.Argument" uuid="4a3a3b08-7d0a-4c58-ba29-e1dd6013af0e">
+            <cppPosition>2</cppPosition>
+            <cppType>[int]Ptr</cppType>
+            <mwType>clib.array.matrixOperations.Int</mwType>
+            <name>arr</name>
+            <shape>Undefined</shape>
+            <storage>Pointer</storage>
+            <validTypes>clib.array.matrixOperations.Int</validTypes>
+            <validTypes>int32</validTypes>
+          </inputs>
+          <inputs type="mwAnnotation.Argument" uuid="6733cb83-62ce-4380-a9c2-a6b089171afc">
+            <cppPosition>3</cppPosition>
+            <cppType>[unsigned long long]</cppType>
+            <mwType>uint64</mwType>
+            <name>len</name>
+            <storage>Value</storage>
+            <validTypes>uint64</validTypes>
+          </inputs>
+          <name>clib.matrixOperations.updateMatBySize</name>
+          <ptKey>F/updateMatBySize@[Mat]Ref,[int]Ptr,[unsigned long long]#[void]</ptKey>
+          <integrationStatus type="mwAnnotation.IntegrationStatus" uuid="5e48a24d-3c55-45df-aa10-03818f6d4b42">
+            <definitionStatus>PartiallySpecified</definitionStatus>
+          </integrationStatus>
+        </Annotations>
+        <DeclPos type="cxxfe.ast.source.SourcePosition" uuid="668f1952-ea3b-4dfb-bc98-990e7d674d1e">
+          <Col>17</Col>
+          <File type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce"/>
+          <Line>38</Line>
+        </DeclPos>
+      </Symbols>
+    </Compilations>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="dc55a407-f669-4e47-a4de-4beae09aeabe">
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h</Path>
+      <WrittenName>corecrt.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="c790caef-4d05-45aa-8696-93a5786b3f48">
+      <IncludedFileWrittenNames>corecrt.h</IncludedFileWrittenNames>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="dc55a407-f669-4e47-a4de-4beae09aeabe"/>
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stddef.h</Path>
+      <WrittenName>stddef.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="5077151c-7c85-4b2e-8276-67d2a52fe129">
+      <IsInclude>true</IsInclude>
+      <Path>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\cppshrhelp.hpp</Path>
+      <WrittenName>cppshrhelp.hpp</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="8bea5e69-1801-4a34-89e7-a46b2de017ce">
+      <IncludedFileWrittenNames>cstddef</IncludedFileWrittenNames>
+      <IncludedFileWrittenNames>cppshrhelp.hpp</IncludedFileWrittenNames>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="c48bb489-efca-4919-bcc2-ba7e3e7725dc"/>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="5077151c-7c85-4b2e-8276-67d2a52fe129"/>
+      <IsTopLevelFile>true</IsTopLevelFile>
+      <Path>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\matrixOperations.hpp</Path>
+      <WrittenName>C:\Program Files\MATLAB\R2024a\extern\examples\cpp_interface\matrixOperations.hpp</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="3f39a99b-5889-40e2-9487-8c0e0c8a4f01">
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\concurrencysal.h</Path>
+      <WrittenName>concurrencysal.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="c48bb489-efca-4919-bcc2-ba7e3e7725dc">
+      <IncludedFileWrittenNames>yvals_core.h</IncludedFileWrittenNames>
+      <IncludedFileWrittenNames>stddef.h</IncludedFileWrittenNames>
+      <IncludedFileWrittenNames>xtr1common</IncludedFileWrittenNames>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="5e294911-172a-4910-8724-783f55571a4c"/>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="c790caef-4d05-45aa-8696-93a5786b3f48"/>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="92a574bd-dd00-461a-b5f1-f06606ee445c"/>
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstddef</Path>
+      <WrittenName>cstddef</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="3e7f2172-648b-4945-b1a6-38d50910b5bf">
+      <IncludedFileWrittenNames>concurrencysal.h</IncludedFileWrittenNames>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="3f39a99b-5889-40e2-9487-8c0e0c8a4f01"/>
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\sal.h</Path>
+      <WrittenName>sal.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="61dd0202-b851-4b80-9caf-1e4d64e35ddc">
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vadefs.h</Path>
+      <WrittenName>vadefs.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="7b1cffa8-7780-4832-828c-3c6e0241eafa">
+      <IncludedFileWrittenNames>sal.h</IncludedFileWrittenNames>
+      <IncludedFileWrittenNames>vadefs.h</IncludedFileWrittenNames>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="3e7f2172-648b-4945-b1a6-38d50910b5bf"/>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="61dd0202-b851-4b80-9caf-1e4d64e35ddc"/>
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vcruntime.h</Path>
+      <WrittenName>vcruntime.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="6e2e6384-9529-4f04-a111-046bdbe261a3">
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xkeycheck.h</Path>
+      <WrittenName>xkeycheck.h</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="92a574bd-dd00-461a-b5f1-f06606ee445c">
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xtr1common</Path>
+      <WrittenName>xtr1common</WrittenName>
+    </Files>
+    <Files type="cxxfe.ast.source.SourceFile" uuid="5e294911-172a-4910-8724-783f55571a4c">
+      <IncludedFileWrittenNames>vcruntime.h</IncludedFileWrittenNames>
+      <IncludedFileWrittenNames>xkeycheck.h</IncludedFileWrittenNames>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="7b1cffa8-7780-4832-828c-3c6e0241eafa"/>
+      <IncludedFiles type="cxxfe.ast.source.SourceFile" uuid="6e2e6384-9529-4f04-a111-046bdbe261a3"/>
+      <IsInclude>true</IsInclude>
+      <IsIncludedBySystemIncludeSyntax>true</IsIncludedBySystemIncludeSyntax>
+      <IsIncludedFromSystemIncludeDir>true</IsIncludedFromSystemIncludeDir>
+      <Path>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\yvals_core.h</Path>
+      <WrittenName>yvals_core.h</WrittenName>
+    </Files>
+    <LongDoubleNumBits>64</LongDoubleNumBits>
+    <PointerNumBits>64</PointerNumBits>
+    <PtrDiffTypeKind>SignedLongLong</PtrDiffTypeKind>
+    <SizeTypeKind>UnsignedLongLong</SizeTypeKind>
+  </cxxfe.ast.Project>
+</MF0>

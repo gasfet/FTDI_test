@@ -1,0 +1,4 @@
+﻿  testDLL2.cpp
+D:\PROJECT\전기차\EVSE100A\FT2232_API\LibMPSSE_1.0.5\LibMPSSE_1.0.5\Windows\libmpsse-windows-1.0.5\release\testDLL2\testDLL2.cpp(19,8): warning C4101: 'channel' :참조되지 않은 지역 변수입니다.
+D:\PROJECT\전기차\EVSE100A\FT2232_API\LibMPSSE_1.0.5\LibMPSSE_1.0.5\Windows\libmpsse-windows-1.0.5\release\testDLL2\testDLL2.cpp(20,27): warning C4101: 'devList' :참조되지 않은 지역 변수입니다.
+  testDLL2.vcxproj -> D:\PROJECT\전기차\EVSE100A\FT2232_API\LibMPSSE_1.0.5\LibMPSSE_1.0.5\Windows\libmpsse-windows-1.0.5\release\testDLL\x64\Debug\testDLL2.exe

@@ -5,6 +5,8 @@
 #include <dlfcn.h>	/*for dlopen() & dlsym()*/
 #endif
 
+
+
 #include "ftd2xx.h"
 #include "libmpsse_i2c.h"
 
