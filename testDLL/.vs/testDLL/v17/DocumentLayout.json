@@ -39,7 +39,7 @@
               "RelativeDocumentMoniker": "..\\testDLL2\\testDLL2.cpp",
               "ToolTip": "D:\\PROJECT\\\uC804\uAE30\uCC28\\EVSE100A\\FT2232_API\\LibMPSSE_1.0.5\\LibMPSSE_1.0.5\\Windows\\libmpsse-windows-1.0.5\\release\\testDLL2\\testDLL2.cpp",
               "RelativeToolTip": "..\\testDLL2\\testDLL2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T05:50:47.302Z",
               "EditorCaption": ""
@@ -54,8 +54,7 @@
               "RelativeToolTip": "testDLL.cpp",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-14T06:26:24.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T06:26:24.207Z"
             }
           ]
         }
